@@ -1,0 +1,180 @@
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+.navbar a{
+    float:left;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 10px 30px;
+    width: 25%;
+}
+
+.navbar a:hover{
+    background-color: red;
+    color: white;
+}
+
+.head {
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 150px;
+    border: 20px solid white;
+    padding: 20px;
+}
+ 
+p{
+     margin: 100px;
+     text-align: center;
+}
+
+p a{
+    color: red;
+}
+
+p a:hover{
+    color: white;
+    font-size: 2em;
+}
+
+
+body{
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    filter: grayscale(100);
+    border-radius: 50%;
+    filter: blur(20%);
+    border:20px solid white;
+    margin-bottom: 50px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.photo-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+}
+
+.photo-text:hover{
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    padding: 70px;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px ;
+}
+
+.video{
+    width: 75%;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-content: center;
+}
+
+.video-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+}
+
+h2{
+    text-decoration: white;
+    font-size: 50px;
+    text-align: center;
+    text-emphasis: underline;
+}
+
+.facts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    list-style: none;
+    text-transform: uppercase;
+    text-shadow: 2em whitesmoke 50%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+    color: white;
+ 
+}
+
+h3{
+    text-align: center;
+}
+table{
+    border: 10px solid white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 5em;
+}
+
+td{
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+tr{
+    background-color: red;
+    color: black;
+    text-align: center;
+    
+}
+
+.article{
+    text-align: center;
+    margin: 50px 5px;
+}
+
+.row{display: flex;
+}
+
+.column{
+    flex: 50%;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
